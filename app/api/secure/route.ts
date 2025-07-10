@@ -5,7 +5,7 @@ export async function GET() {
   return NextResponse.json({
     adminPassword: process.env.ADMIN_PASSWORD || "sniffgamechangerpredictions",
     dashboardPassword: process.env.DASHBOARD_PASSWORD || "sniffgamechangerpredictions",
-    whatsappNumber: process.env.WHATSAPP_NUMBER || "254753218553",
+    whatsappNumber: process.env.WHATSAPP_NUMBER || "254786551771",
     whatsappGroup: process.env.WHATSAPP_GROUP || "https://chat.whatsapp.com/ICuHNh1Oi6PBeCq5KhiNMu",
   })
 }
